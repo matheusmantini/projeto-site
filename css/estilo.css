@@ -25,8 +25,8 @@ body{
 
 main{
     background-color: rgb(204, 205, 250);
-    width: 500px;
-    padding: 20px 30px;
+    width: 600px;
+    padding: 15px 30px 30px 30px;
     margin: 0 auto;
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
@@ -49,11 +49,11 @@ section.one{
 }
 
 section.one h2{
-    margin-bottom: -7px;
+    margin-bottom: -10px;
 }
 
 section.two{
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: -7px;
     font-size: 18px;
     color: rgb(37, 48, 199);
@@ -76,6 +76,30 @@ img{
     padding-left: 20px;
 }
 
-section p a{
-    color: rgba(12, 22, 161, 0.521);;
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 0, 112);
 }
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(26, 26, 255);
+}
+
+a.voltar{
+    display: inline-block;
+    margin: 10px auto;
+}
+
+article{
+    text-align: justify;
+}
+
+article iframe{
+    margin: 0 20px;
+}
+
+
+
