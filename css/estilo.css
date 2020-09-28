@@ -4,11 +4,27 @@
 }
 
 body{
-    background-color: rgb(242, 233, 252);
+    background-color: rgb(233, 233, 252);
 }
 
+/* BootCSS */
+.clear{
+    clear: both;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    float: right;
+}
+
+/*******/
+
+
 main{
-    background-color: rgb(234, 221, 247);
+    background-color: rgb(204, 205, 250);
     width: 500px;
     padding: 20px 30px;
     margin: 0 auto;
@@ -17,7 +33,7 @@ main{
 
 header h1{    
     font-size: 20px;
-    color: rgb(177, 39, 177);
+    color: rgb(12, 22, 161);
     text-align: center;
     text-decoration: underline;
     letter-spacing: 1px;
@@ -27,7 +43,7 @@ header h1{
 section.one{
     margin-bottom: 30px;
     font-size: 18px;
-    color: rgb(177, 39, 177);
+    color: rgb(37, 48, 199);
     text-align: center;
     letter-spacing: 1px;
 }
@@ -40,7 +56,7 @@ section.two{
     margin-top: 20px;
     margin-bottom: -7px;
     font-size: 18px;
-    color: rgb(177, 39, 177);
+    color: rgb(37, 48, 199);
     text-align: center;
     letter-spacing: 1px;
 }
@@ -52,6 +68,14 @@ section.two h2{
 section p{
     margin-bottom: -7px;
     font-size: 15px;
-    color: rgb(184, 86, 184);
+    color: rgb(99, 108, 228);
     text-align: justify;
+}
+
+img{
+    padding-left: 20px;
+}
+
+section p a{
+    color: rgba(12, 22, 161, 0.521);;
 }
