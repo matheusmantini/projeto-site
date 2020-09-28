@@ -4,12 +4,54 @@
 }
 
 body{
-    background-color: rgb(234, 221, 247);
+    background-color: rgb(242, 233, 252);
 }
 
 main{
-    background-color: white;
+    background-color: rgb(234, 221, 247);
     width: 500px;
+    padding: 20px 30px;
     margin: 0 auto;
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+header h1{    
+    font-size: 20px;
+    color: rgb(177, 39, 177);
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+section.one{
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: rgb(177, 39, 177);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+section.one h2{
+    margin-bottom: -7px;
+}
+
+section.two{
+    margin-top: 20px;
+    margin-bottom: -7px;
+    font-size: 18px;
+    color: rgb(177, 39, 177);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+section.two h2{
+    margin-bottom: -7px;
+}
+
+section p{
+    margin-bottom: -7px;
+    font-size: 15px;
+    color: rgb(184, 86, 184);
+    text-align: justify;
 }
